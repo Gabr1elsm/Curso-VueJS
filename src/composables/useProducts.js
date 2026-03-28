@@ -1,3 +1,6 @@
+import { ref, computed } from "vue"
+import { getProducts } from "./productServices"
+
 export function useProducts() {
   const products  = ref([])    // lista de produtos
   const total     = ref(0)     // total de registros na API

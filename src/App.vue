@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import ProductList from './components/productList.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <div>
+    <ProductList/>
+  </div>
 </template>
